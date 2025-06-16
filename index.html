@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <script src="x.js"></script>
+        <title>Trivia!</title>
+        <script>
+            // TODO: Add code to check answers to questions
+        </script>
+    </head>
+    <body>
+        <div class="header">
+            <h1>Trivia!</h1>
+        </div>
+
+        <div class="container">
+            <div class="section">
+                <h2>Part 1: Multiple Choice </h2>
+                <hr>
+                <h3>Kij i piłka kosztują razem 1,10zł, kij jest o złotówkę droższy od piłki. Ile kosztuje piłka?</h3>
+                <button class = "wrong">10 groszy</button>
+                <button class = "wrong">15 gorszy</button>
+                <button class = "right">5 groszy</button>
+                <button class = "wrong">Tyle samo co kij</button>
+                <button class = "wrong">Żadna z powyższych</button>
+                <p id="feedback1"></p>
+            </div>
+
+            <div class="section">
+                <h2>Part 2: Free Response</h2>
+                <hr>
+                <h3>Cegła waży kilo i pół cegły, ile waży cegła? (odpowiedź podaj w kilogramach)</h3>
+              <form>
+                <label for="name">Waga cegły wynosi:</label><br>
+                <input autocomplete="off" type="text" id="waga" name="waga"  required>
+                <button type="submit">Sprawdź odpowiedź</button>
+                <p id="feedback2"></p>
+            </form>
+            </div>
+        </div>
+    </body>
+</html>
